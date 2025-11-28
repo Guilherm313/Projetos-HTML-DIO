@@ -50,18 +50,24 @@
                     <h2>Formulário</h2>
                     <hr>
                     <form>
-                        <label>Nome:</label> <input type="text" name="name"><br>
-                        <label>E-mail:</label> <input type="email" name="email"><br>
-                        <label>Assunto:</label>
-                        <select name="role">
-                            <option value="">Selecione o assunto</option>
-                            <option value="vacinacao">Vacinação</option>
-                            <option value="exame">Exame geral</option>
-                            <option value="coleta">Coleta</option>
-                            <option value="procedimentos">Procedimentos gerais</option>
-                        </select><br>
-                        <label>Mensagem:</label><br>
-                        <textarea rows="5" cols="30" name="mensagem"></textarea><br>
+                        <fieldset>
+                            <legend>Dados pessoais</legend>
+                                <label>Nome:</label> <input type="text" name="name"><br>
+                                <label>E-mail:</label> <input type="email" name="email"><br>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Motivo do contato</legend>
+                                <label>Assunto:</label>
+                                    <select name="role">
+                                        <option value="">Selecione o assunto</option>
+                                        <option value="vacinacao">Vacinação</option>
+                                        <option value="exame">Exame geral</option>
+                                        <option value="coleta">Coleta</option>
+                                        <option value="procedimentos">Procedimentos gerais</option>
+                                    </select><br>
+                                <label>Mensagem:</label><br>
+                                    <textarea rows="5" cols="30" name="mensagem"></textarea><br>
+                        </fieldset>
                         <button type="submit">Enviar</button>
                         <button type="reset">Limpar</button>
                     </form>
