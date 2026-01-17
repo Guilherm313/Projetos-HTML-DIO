@@ -1,0 +1,231 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+     list-style: none; padding-left: 5px; 
+}
+a {
+     color:blue; text-decoration: none;
+}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+main {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+tfoot {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+section.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+nav.sidebar {
+    border-right: solid 1px #cdcdcd;
+    width: ;
+}
+.anchors, .sidebar{
+    position: sticky; 
+    background-color: #f4f4f4;
+    color: rgb(0, 0, 0); 
+    text-align: start;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+    border: solid 1px #cdcdcd;
+    border-top: 0px;
+}
+p {
+    line-height: 1.3em;
+}
+figure.images-left{
+    float: left;
+    margin: 10px 20px 0px 0px;
+    text-align: center;
+    border: solid 1px #000000;
+    background-color: #f0f0f0;
+    display: inline-block;
+}
+figure.images-right {
+    float: right;
+    margin: 10px 0px 0px 20px;
+    border: solid 1px #000000;
+    background-color: #f0f0f0;
+    display: inline-block;
+}
+img.images {
+    margin: 10px 10px 0px 10px;
+    border: solid 2px black;
+    text-align: center;
+}
+.desc {
+    display: flex;
+    margin: 5px;
+    font-size: 0.85em;
+    text-align: center;
+}
+#desc-jogabilidade {
+    width: 17em;
+    height: 6em;
+    text-align: start;
+    line-height: 1.2em;
+    padding: 0px 0px 5px 5px;
+}
+#desc-deadeye {
+    width: 17em;
+    height: 8.3em;
+    text-align: start;
+    line-height: 1.2em;
+    padding: 0px 0px 5px 5px;
+}
+#desc-paisagem {
+    width: 23em;
+    height: 3em;
+    text-align: center;
+    line-height: 1.4em;
+    margin-top: 10px;
+}
+#desc-membros {
+    width: 17em;
+    height: 3.3em;
+    text-align: start;
+    line-height: 1.2em;
+    padding: 0px 0px 5px 5px;
+}
+.multimagens-coluna {
+    display: flex;
+    flex-direction: column; 
+}
+.linha {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+.miniatura {
+    margin: 10px 0px 0px 5px;
+}
+.miniatura-borda {
+    border: solid 2px black;
+}
+.miniatura-desc {
+    display: block;
+    margin: 5px;
+    font-size: 1em;
+    text-align: start;
+}
+.miniatura-caption {
+    width: 31.8em;
+    height: 3.2em;
+    padding: 5px 5px 5px 5px;
+    text-align: start;
+
+}
+#miniatura-margin-right {
+    margin: 0px 0px 10px 10px;
+}
+#miniatura-margin-left {
+    margin: 0px 15px 5px 0px
+}
+figcaption#console-caption {
+    height: 4.5em;
+}
+.multimagens-linha {
+    display: flex;
+    flex-direction: row;
+}
+.coluna {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+#musicos-desc {
+    width: 16em
+}
+#miniatura-musicos {
+    margin-left: 0px;
+}
+.tabelas-pequenas {
+    margin: 10px 0px 0px 10px;
+    font-size: 90%;
+    cursor: pointer;
+}
+.tabelas-grandes {
+    background-color: #f9f9f9;
+}
+.cabeçalho tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+.cabeçalho tr:hover td {
+    background-color: #e2e2e2;
+}
+.border {
+    border: solid 0.6px black;
+}
+th {
+    background-color: #e9e9e9;
+    color: #2e2e2e;
+}
+.categorias-align {
+    text-align: start;
+}
+#titulo {
+    color: red;
+}
+
+#ps4-desc {
+    width: 17em;
+    height: 2.5em;
+    text-align: start;
+    line-height: 1.2em;
+    padding: 0px 0px 5px 5px;
+}
+#autor-desc {
+    width: 17em;
+    height: 3.7em;
+    text-align: start;
+    line-height: 1.2em;
+    padding: 0px 0px 5px 5px;
+}
+#KR-desc {
+    width: 17em;
+    height: 2.5em;
+    text-align: start;
+    line-height: 1.2em;
+    padding: 0px 0px 5px 5px;
+}
+#painel-desc {
+    width: 17em;
+    height: 2.3em;
+    text-align: start;
+    line-height: 1.2em;
+    padding: 0px 0px 5px 5px;
+}
+#clct-desc {
+    width: 17em;
+    height: 2.5em;
+    text-align: start;
+    line-height: 1.2em;
+    padding: 0px 0px 5px 5px;
+}
+.venceu {
+    background-color: rgb(211, 253, 207);
+}
+.indicado {
+    background-color: rgb(255, 219, 219);
+}
