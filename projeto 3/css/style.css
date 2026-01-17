@@ -36,7 +36,6 @@ section.anchors {
 }
 nav.sidebar {
     border-right: solid 1px #cdcdcd;
-    width: ;
 }
 .anchors, .sidebar{
     position: sticky; 
@@ -56,14 +55,12 @@ figure.images-left{
     text-align: center;
     border: solid 1px #000000;
     background-color: #f0f0f0;
-    display: inline-block;
 }
 figure.images-right {
     float: right;
     margin: 10px 0px 0px 20px;
     border: solid 1px #000000;
     background-color: #f0f0f0;
-    display: inline-block;
 }
 img.images {
     margin: 10px 10px 0px 10px;
